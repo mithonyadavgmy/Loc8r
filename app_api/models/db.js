@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3000
 const readLine = require('readline');
 
-let dbURL = 'mongodb://127.0.0.1:27017/Loc8r';
+let dbURL = 'mongodb://127.0.0.1:27017/';
 
 const connectDB = async () => {
     try {
